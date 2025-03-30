@@ -1,0 +1,112 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+/.nyc_output
+/cypress/screenshots
+/cypress/videos
+
+# next.js
+/.next/
+/out/
+.next/
+next-env.d.ts
+
+# production
+/build
+/dist
+/.swc/
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+*.code-workspace
+.settings/
+
+# Logs
+logs
+*.log
+
+# OS specific
+ehthumbs.db
+Desktop.ini
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Cache directories
+.cache/
+.turbopack/
+
+# dotenv environment variable files
+.env.development
+.env.test
+.env.production
+
+# Storybook build outputs
+/storybook-static
+
+# PWA
+**/public/workbox-*
+**/public/sw.js
+**/public/service-worker.js
+**/public/worker-*.js
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
